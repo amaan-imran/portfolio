@@ -1,0 +1,40 @@
+body {
+    color:black;
+    font-size: 3ems;
+    background-image: url("../images/Back\ Ground.jfif");
+    background-repeat: no-repeat,repeat; 
+    background-size: 1500px 950px;
+    }
+    h3{
+        color: rgb(238, 40, 40);
+    }
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(202, 16, 3, 0.849)
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: rgb(241, 231, 82);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgb(17, 17, 17);
+  }
