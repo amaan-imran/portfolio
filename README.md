@@ -1,2 +1,2 @@
 # portfolio
-Portfolio of my tech skills, expieriences, and about me
+Portfolio of my tech skills, experiences and a little about me
