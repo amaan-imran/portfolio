@@ -1,0 +1,128 @@
+body {
+  color: rgb(0, 0, 0);
+  font-size: 3ems;
+  background-image: url("../images/woooooh.webp");
+  background-repeat: no-repeat,repeat; 
+  background-size: 1500px 3000px;
+  }
+  p{
+      font-family: 'Reggae One', cursive; 
+    }
+    h2{
+      font-family: 'Reggae One', cursive; 
+    }
+    h1{
+      font-family: 'Reggae One', cursive; 
+    }
+  
+  
+  
+  img{
+      float:right;
+  }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(255, 117, 4);
+      border:5px solid black
+    }
+  
+    li {
+      float: left;
+    }
+    li a{
+      font-family: 'Reggae One', cursive; 
+    }
+  
+    li a {
+      display: block;
+      color:rgb(0, 0, 0);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+  
+    li a:hover {
+      background-color: rgb(21, 171, 230);
+    }
+    #one{
+      margin: 20%;
+      background-color: rgb(245, 127, 84);
+      width: 600px;
+      border: 8px solid black;
+      padding: 50px;
+      margin: 20px;
+      height: 300px;
+      margin:auto
+    }
+    #two{
+      margin: 20%;
+      background-color: rgb(245, 127, 84);
+      width: 600px;
+      border: 8px solid black;
+      padding: 50px;
+      margin: 20px;
+      height: 300px;
+      margin:auto
+    }
+    #three{
+      margin: 20%;
+      background-color: rgb(245, 127, 84);
+      width: 650px;
+      border: 8px solid black;
+      padding: 50px;
+      margin: 30px;
+      height: 350px;
+      margin:auto
+    }
+    #four{
+      margin: 20%;
+      background-color: rgb(245, 127, 84);
+      width: 500px;
+      border: 8px solid black;
+      padding: 50px;
+      margin: 20px;
+      height: 200px;
+      margin:auto
+    }
+    #IJ{
+      margin: 20%;
+      background-color: rgb(245, 127, 84);
+      width: 600px;
+      border: 10px solid black;
+      padding: 50px;
+      margin: 20px;
+      height: 200px;
+      margin:auto
+    }
+    #center-peice{
+      margin: 20%;
+      background-color: rgb(245, 127, 84);
+      width: 600px;
+      border: 10px solid black;
+      padding: 50px;
+      margin: 20px;
+      height: 100px;
+      margin:auto
+    }
+    #bottom-center{
+      margin: 20%;
+      background-color: rgb(245, 127, 84);
+      width: 600px;
+      border: 10px solid black;
+      padding: 50px;
+      margin: 20px;
+      height: 200px;
+      margin:auto
+    }
+    #Video{
+      margin: 20%;
+      width: 800px;
+      border: 10px solid black;
+      padding: 50px;
+      margin: 20px;
+      height: 400px;
+      margin:auto
+    }
