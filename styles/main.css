@@ -54,8 +54,7 @@ body {
       border: 8px solid aqua;
       padding: 50px;
       margin: 20px;
-      height: 300px;
-      margin:auto
+      height: 350px;
     }
     #two{
       margin: 20%;
@@ -65,7 +64,7 @@ body {
       padding: 50px;
       margin: 20px;
       height: 300px;
-      margin:auto
+      Float:right
     }
     #three{
       margin: 20%;
@@ -75,7 +74,6 @@ body {
       padding: 50px;
       margin: 30px;
       height: 350px;
-      margin:auto
     }
     #four{
       margin: 20%;
@@ -85,7 +83,7 @@ body {
       padding: 50px;
       margin: 20px;
       height: 200px;
-      margin:auto
+      Float:right
     }
     #IJ{
       margin: 20%;
