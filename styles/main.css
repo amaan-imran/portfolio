@@ -19,7 +19,17 @@ body {
 color:maroon;
 font-size: 200ems;
   }
-  
+
+  #assignment-header{
+color:maroon;
+font: size 100px;
+  }
+  #Project-header{
+  color: maroon;
+  font-size: 200ems;
+  }
+
+
   img{
       float:left;
   }
