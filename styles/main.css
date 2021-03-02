@@ -1,5 +1,5 @@
 body {
-  color: aqua;
+  color: white;
   font-size: 3ems;
   background-image: url("../images/MAROOOn.jpg");
   background-repeat: no-repeat,repeat; 
@@ -26,7 +26,7 @@ body {
       padding: 0;
       overflow: hidden;
       background-color: maroon;
-      border:5px solid aqua
+      border:5px solid white
     }
   
     li {
@@ -38,7 +38,7 @@ body {
   
     li a {
       display: block;
-      color: aqua;
+      color: white;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
@@ -51,7 +51,7 @@ body {
       margin: 20%;
       background-color: maroon;
       width: 600px;
-      border: 8px solid aqua;
+      border: 8px solid white;
       padding: 50px;
       margin: 20px;
       height: 350px;
@@ -60,7 +60,7 @@ body {
       margin: 20%;
       background-color:maroon;
       width: 600px;
-      border: 8px solid aqua;
+      border: 8px solid white;
       padding: 50px;
       margin: 20px;
       height: 300px;
@@ -70,7 +70,7 @@ body {
       margin: 20%;
       background-color: maroon;
       width: 650px;
-      border: 8px solid aqua;
+      border: 8px solid white;
       padding: 50px;
       margin: 30px;
       height: 350px;
@@ -79,7 +79,7 @@ body {
       margin: 20%;
       background-color:maroon;
       width: 500px;
-      border: 8px solid aqua;
+      border: 8px solid white;
       padding: 50px;
       margin: 20px;
       height: 200px;
@@ -89,7 +89,7 @@ body {
       margin: 20%;
       background-color: maroon;
       width: 600px;
-      border: 10px solid aqua;
+      border: 10px solid white;
       padding: 50px;
       margin: 20px;
       height: 200px;
@@ -99,7 +99,7 @@ body {
       margin: 20%;
       background-color: maroon;
       width: 600px;
-      border: 10px solid aqua;
+      border: 10px solid white;
       padding: 50px;
       margin: 20px;
       height: 100px;
@@ -109,7 +109,7 @@ body {
       margin: 20%;
       background-color: maroon;
       width: 600px;
-      border: 10px solid aqua;
+      border: 10px solid white;
       padding: 50px;
       margin: 20px;
       height: 200px;
@@ -118,7 +118,7 @@ body {
     #Video{
       margin: 20%;
       width: 800px;
-      border: 10px solid aqua;
+      border: 10px solid white;
       padding: 50px;
       margin: 20px;
       height: 400px;
