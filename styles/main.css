@@ -1,7 +1,7 @@
 body {
   color: white;
   font-size: 3ems;
-  background-image: url("../images/MAROOOn.jpg");
+  background-image: url("../images/light\ grey.jpg");
   background-repeat: no-repeat,repeat; 
   background-size: 1500px 3000px;
   }
@@ -15,7 +15,10 @@ body {
       font-family: 'Reggae One', cursive; 
     }
   
-  
+  #Header{
+color:maroon;
+font-size: 200ems;
+  }
   
   img{
       float:left;
@@ -125,9 +128,9 @@ body {
       margin:auto
     }
     .button {
-      background-color: white; /* Green */
+      background-color: whitesmoke; 
       border: none;
-      color: maroon;
+      color:maroon;
       padding: 20px;
       text-align: center;
       text-decoration: none;
