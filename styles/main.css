@@ -1,7 +1,7 @@
 body {
   color: white;
   font-size: 3ems;
-  background-image: url("../images/light\ grey.jpg");
+  background-image: url("../images/white\ background.jpg");
   background-repeat: no-repeat,repeat; 
   background-size: 1500px 3000px;
   }
@@ -51,42 +51,41 @@ font-size: 200ems;
       background-color: rgb(21, 171, 230);
     }
     #one{
-      margin: 20%;
+      margin: 2%;
       background-color: maroon;
       width: 600px;
       border: 8px solid white;
       padding: 50px;
-      margin: 20px;
       height: 350px;
     }
     #two{
-      margin: 20%;
+      margin: 2%;
       background-color:maroon;
       width: 600px;
       border: 8px solid white;
       padding: 50px;
-      margin: 20px;
       height: 300px;
-      Float:right
+      display: block;
+      margin-left: auto;
+     
     }
     #three{
-      margin: 20%;
+      margin: 2%;
       background-color: maroon;
       width: 650px;
       border: 8px solid white;
       padding: 50px;
-      margin: 30px;
       height: 350px;
     }
     #four{
-      margin: 20%;
+      margin: 2%;
       background-color:maroon;
       width: 500px;
       border: 8px solid white;
       padding: 50px;
-      margin: 20px;
-      height: 200px;
-      Float:right
+      height: 250px;
+      display: block;
+      margin-left: auto;
     }
     #IJ{
       margin: 20%;
@@ -105,8 +104,11 @@ font-size: 200ems;
       border: 10px solid white;
       padding: 50px;
       margin: 20px;
-      height: 100px;
-      margin:auto
+      height: 150px;
+      margin:auto;
+      text-align:center;
+
+
     }
     #bottom-center{
       margin: 20%;
@@ -128,9 +130,9 @@ font-size: 200ems;
       margin:auto
     }
     .button {
-      background-color: whitesmoke; 
+      background-color: white; 
       border: none;
-      color:maroon;
+      color: maroon;
       padding: 20px;
       text-align: center;
       text-decoration: none;
@@ -138,4 +140,7 @@ font-size: 200ems;
       margin: 4px 4px;
       cursor: pointer;
       border-radius: 30px; 
+    }
+    #center-peice .button{
+      margin:auto;
     }
