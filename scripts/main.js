@@ -20,5 +20,6 @@ function lights(){
     else {
         console.log("invalid input");
     }
-}lights();
+}
+// lights()
 
