@@ -18,7 +18,7 @@ body {
   
   
   img{
-      float:right;
+      float:left;
   }
     ul {
       list-style-type: none;
