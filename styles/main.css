@@ -41,7 +41,7 @@ font: size 500ems;
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: maroon;
+      background-image:url(../images/MAROOOn.jpg);
       border:5px solid white
     }
   
@@ -217,6 +217,36 @@ font: size 500ems;
     cursor: pointer;
     border-radius: 30px
    }
-
-
-    
+   .home-footer{
+    background-image:url("../images/maroon-lattice-background-vector.jpg");
+    text-align: center;
+    padding: 10px;
+   }
+   .aboutme-footer{
+    background-image:url("../images/maroon-lattice-background-vector.jpg");
+    text-align: center;
+    padding: 10px;
+   }
+   
+   #as1{
+     color:maroon;
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image: url(../images/galaxy.jpg) 20% round;
+    width:300px;
+    text-align:center;
+    margin:auto
+   }
+   #as2{
+    color:maroon;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(../images/galaxy.jpg) 20% round;
+    width:500px;
+    text-align:center;
+    margin:auto
+   }
+ 
+   img {
+    border-radius: 70%;
+  }
