@@ -25,7 +25,21 @@ function lights(){
 
 function Pizza(){
     let topping = prompt("What is your favourite Pizza topping");
-    let message= topping + "Pizza";
-    document.getElementById('saywelcome').innerHTML = message;  
+    let message= topping + " Pizza";
+    document.getElementById('pizza').innerHTML = message;  
 }
-
+function Song(){
+    let songtitle = prompt("What is your favourite song?");
+    let message= songtitle;
+    document.getElementById('favsong').innerHTML = message;  
+}
+function Movie(){
+    let moviename = prompt("What is your favourite song?");
+    let message= moviename + " -Is a good choice!";
+    document.getElementById('favmovie').innerHTML = message;  
+}
+function Sport(){
+    let sportname = prompt("What is your favourite song?");
+    let message= sportname;
+    document.getElementById('favsport').innerHTML = message;  
+}
