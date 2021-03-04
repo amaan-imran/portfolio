@@ -135,12 +135,12 @@ font: size 500ems;
     }
     #Video{
       margin: 20%;
-      width: 800px;
+      width: 1000px;
       border: 10px solid maroon;
       background-image: url("../images/galaxy.jpg");
       padding: 50px;
       margin: 20px;
-      height: 400px;
+      height: 500px;
       margin:auto
     }
     .button {
