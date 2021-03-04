@@ -154,3 +154,30 @@ font: size 100px;
     #center-peice .button{
       margin:auto;
     }
+   #Questions{
+    margin: 20%;
+    background-color: maroon;
+    width: 600px;
+    border: 10px solid white;
+    padding: 50px;
+    margin: 20px;
+    height: 250px;
+    margin:auto;
+    text-align:center;
+   }
+   
+   .question-1{
+    background-color: white; 
+    border: none;
+    color: maroon;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 30px; 
+   }
+
+
+    
