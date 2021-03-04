@@ -161,9 +161,8 @@ font: size 100px;
     border: 10px solid white;
     padding: 50px;
     margin: 20px;
-    height: 250px;
+    height: 800px;
     margin:auto;
-    text-align:center;
    }
    
    .question-1{
@@ -177,6 +176,42 @@ font: size 100px;
     margin: 4px 4px;
     cursor: pointer;
     border-radius: 30px; 
+   }
+   .question-2{
+    background-color: white; 
+    border: none;
+    color: maroon;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 30px; 
+   }
+   .question-3{
+    background-color: white; 
+    border: none;
+    color: maroon;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 30px;
+   }
+   .question-4{
+    background-color: white; 
+    border: none;
+    color: maroon;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 30px
    }
 
 
