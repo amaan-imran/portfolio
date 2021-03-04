@@ -7,14 +7,14 @@ function Welcome(){
 }
 function lights(){
 
-     let color= prompt("What color is the light now?");
-    if (color === "red") {
+     let color= prompt("This website will ask you question, are you ok with that?");
+    if (color === "Yes") {
         console.log("STOP!");
     }
-    else if (color=== "green"){
+    else if (color=== "yes"){
         console.log("GO!");
     }
-    else if (color ==="amber"){
+    else if (color ==="maybe"){
         console.log("Stop if it is safe to do so");
     }
     else {
@@ -22,4 +22,10 @@ function lights(){
     }
 }
 // lights()
+
+function Pizza(){
+    let topping = prompt("What is your favourite Pizza topping");
+    let message= topping + "Pizza";
+    document.getElementById('saywelcome').innerHTML = message;  
+}
 
