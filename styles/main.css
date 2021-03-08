@@ -32,6 +32,14 @@ font: size 500ems;
   color: maroon;
   font-size: 200ems
 }
+#about-me_header{
+  color:maroon;
+  font: size 500ems;
+    }
+#about-me_title{
+  color:maroon;
+  font: size 500ems;
+}
 
   img{
       float:left;
@@ -63,6 +71,7 @@ font: size 500ems;
     li a:hover {
       background-color: rgb(21, 171, 230);
     }
+  
     #one{
       margin: 2%;
       background-color: maroon;
@@ -77,10 +86,9 @@ font: size 500ems;
       width: 600px;
       border: 8px solid white;
       padding: 50px;
-      height: 300px;
+      height: 475px;
       display: block;
       margin-left: auto;
-     
     }
     #three{
       margin: 2%;
@@ -89,16 +97,6 @@ font: size 500ems;
       border: 8px solid white;
       padding: 50px;
       height: 350px;
-    }
-    #four{
-      margin: 2%;
-      background-color:maroon;
-      width: 500px;
-      border: 8px solid white;
-      padding: 50px;
-      height: 250px;
-      display: block;
-      margin-left: auto;
     }
     #IJ{
       margin: 20%;
@@ -235,6 +233,4 @@ font: size 500ems;
     margin:auto
    }
  
-   img {
-    border-radius: 70%;
-  }
+  
