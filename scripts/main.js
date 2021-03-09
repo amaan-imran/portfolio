@@ -45,3 +45,17 @@ function Sport(){
     let message= sportname;
     document.getElementById('favsport').innerHTML = message;  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
