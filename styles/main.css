@@ -232,24 +232,32 @@ font: size 500ems;
     text-align: center;
     padding: 10px;
    }
-   /* Assignments box #1 */
-   #as1{
-     color:maroon;
-    border: 15px solid transparent;
-    padding: 15px;
-    border-image: url(../images/galaxy.jpg) 20% round;
-    width:300px;
-    text-align:center;
-    margin:auto
-   }
-   /* Assignments box #2 */
-   #as2{
-    color:maroon;
-    border: 10px solid transparent;
-    padding: 15px;
-    border-image: url(../images/galaxy.jpg) 20% round;
-    width:500px;
-    text-align:center;
-    margin:auto
-   }
   
+/*buttons*/
+.assignment-buttons-1,.assignment-buttons-2,
+.assignment-buttons-3,.assignment-buttons-4,
+.assignment-buttons-5,.assignment-buttons-6,
+.assignment-buttons-7,.assignment-buttons-8,
+.assignment-buttons-9,.assignment-buttons-10{
+    margin: 60px;
+    padding:2em;
+    width: 425px;
+    height: 10em;
+    display: inline-block;
+    background-image: url("../images/galaxy.jpg");
+    border: 20px solid maroon;
+    cursor:pointer;
+    font-size: 25px;
+    color: white;
+    font-family: 'Reggae One', cursive;
+    border-radius: 3px,3px,3px,3px;
+    background-color: maroon;
+}
+/*hovering buttons*/
+.assignment-buttons-1:hover,.assignment-buttons-2:hover,
+.assignment-buttons-3:hover,.assignment-buttons-4:hover,
+.assignment-buttons-5:hover,.assignment-buttons-6:hover,
+.assignment-buttons-7:hover,.assignment-buttons-8:hover,
+.assignment-buttons-9:hover,.assignment-buttons-10:hover{
+    color: maroon;
+    background-color: silver}
