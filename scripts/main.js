@@ -45,36 +45,37 @@ function Sport(){
     let message= sportname;
     document.getElementById('favsport').innerHTML = message;  
 }
-<script>
-        //alerts//
+
+        
 function function1(){
-    alert("Assignment 1 coming soon")
+    alert("Assignment 1 coming soon");
 }
-function function2(){
-    alert("Assignment 2 coming soon")
+function function2() {
+    alert("Assignment 2 coming soon");
 }
 function function3(){
-    alert("Assignment 3 coming soon")
+    alert("Assignment 3 coming soon");
 }
 function function4(){
-    alert("Assignment 4 coming soon")
+    alert("Assignment 4 coming soon");
 }
 function function5(){
-    alert("Assignment 5 coming soon")
+    alert("Assignment 5 coming soon");
 }
 function function6(){
-    alert("Assignment 6 coming soon")
-}
+    alert("Assignment 6 coming soon");
+} 
 function function7(){
-    alert("Assignment 7 coming soon")
+    alert("Assignment 7 coming soon");
 }
 function function8(){
-    alert("Assignment 8 coming soon")
+    alert("Assignment 8 coming soon");
 }
 function function9(){
-    alert("Assignment 9 coming soon")
+    alert("Assignment 9 coming soon");
 }
 function function10(){
-    alert("Assignment 10 coming soon")
+    alert("Assignment 10 coming soon");
 }
-</script>
+
+
