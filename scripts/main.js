@@ -173,7 +173,7 @@ function largernumber() {
     let yearnum1 = parseInt(prompt("Enter the year please: "))
     if (yearnum1>0){
       // math.ceil rounds the number up to the nearest 100 //
-      document.getElementById("button7").innerHTML= "This year is in the " +  Math.ceil (yearnum1/100) +"th"+ " century"
+      document.getElementById("button7").innerHTML= "The year you have entered is in the " +  Math.ceil (yearnum1/100) +"th"+ " century"
     }
     else{
       document.getElementById("button7").innerHTML= "Make sure you have entered a number "
