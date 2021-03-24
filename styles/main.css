@@ -15,6 +15,7 @@ body {
     h1{
       font-family: 'Reggae One', cursive; 
     }
+
   /* Main Header */
   #Header{
 color:maroon;
@@ -233,104 +234,29 @@ font: size 500ems;
     padding: 10px;
    }
   
-/*buttons*/
-.assignment-buttons-1,.assignment-buttons-2,
-.assignment-buttons-3,.assignment-buttons-4,
-.assignment-buttons-5,.assignment-buttons-6,
-.assignment-buttons-7,.assignment-buttons-8,
-.assignment-buttons-9,.assignment-buttons-10{
-    margin: 60px;
-    padding:2em;
-    width: 425px;
-    height: 10em;
-    display: inline-block;
-    background-image: url("../images/galaxy.jpg");
-    border: 20px solid maroon;
-    cursor:pointer;
-    font-size: 25px;
-    color: white;
-    font-family: 'Reggae One', cursive;
-    border-radius: 3px,3px,3px,3px;
-    background-color: maroon;
+   /* css for buttons funcitons-x*/
+.type1 {
+	margin: 0.22cm 0.60cm;
+	padding: 35px;
+	width: 30%;
+	height: 6em;
+	background-color: maroon;
+  color:white;
+	font-size: 20px;
+	border-color: whitesmoke ;
+	border-width: 10px;
 }
-/*hovering buttons*/
-.assignment-buttons-1:hover,.assignment-buttons-2:hover,
-.assignment-buttons-3:hover,.assignment-buttons-4:hover,
-.assignment-buttons-5:hover,.assignment-buttons-6:hover,
-.assignment-buttons-7:hover,.assignment-buttons-8:hover,
-.assignment-buttons-9:hover,.assignment-buttons-10:hover{
-    color: maroon;
-    background-color: silver}
 
-    #Lnumber{
-      background-color:maroon; 
-      border: none;
-      color: white;
-      padding: 20px;
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-      margin: 4px 4px;
-      cursor: pointer;
-      border-radius: 30px;
-     }
-     #signofp{
-      background-color:maroon; 
-      border: none;
-      color: white;
-      padding: 20px;
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-      margin: 4px 4px;
-      cursor: pointer;
-      border-radius: 30px;
-     }
-     #threensort{
-      background-color:maroon; 
-      border: none;
-      color: white;
-      padding: 20px;
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-      margin: 4px 4px;
-      cursor: pointer;
-      border-radius: 30px;
-     }
-     #sumthree{
-      background-color:maroon; 
-      border: none;
-      color: white;
-      padding: 20px;
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-      margin: 4px 4px;
-      cursor: pointer;
-      border-radius: 30px;
-     }
-     #whilesumthree{
-      background-color:maroon; 
-      border: none;
-      color: white;
-      padding: 20px;
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-      margin: 4px 4px;
-      cursor: pointer;
-      border-radius: 30px;
-     }
-     #tenandfour{
-      background-color:maroon; 
-      border: none;
-      color: white;
-      padding: 20px;
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-      margin: 4px 4px;
-      cursor: pointer;
-      border-radius: 30px;
-     }
+/* css for buttons functions-y*/
+.type2 {
+	margin: 0.22cm 0.60cm;
+	padding: 35px;
+	width: 30%;
+	height: 6em;
+	background-color: whitesmoke;
+  color:maroon;
+	font-size: 20px;
+	border-color: maroon ;
+	border-width: 10px;
+}
+   
