@@ -132,12 +132,13 @@ function threeNumberSort() {
 // Create a JavaScript function, forSumThrees(), that uses a for loop to sum the multiples of 3 under 1000. Log the result to the console
 function forSumThrees() {
 	var sum = 0;
-		for (let i = 0; i < 1000; i++) {
-			if (i % 3 === 0) {
-				sum += i;
+		for (var x =0;x<1000; x++ ) 
+        {
+			if (x % 3 === 0) {
+				sum += x;
 			}
 		}
-	console.log(sum);
+	document.getElementById("sumthree").innerHTML=sum;
 }
 // Create a JavaScript function, whileSumThrees(), that uses a while loop to sum the multiples of 3 under 1000. Log the result to the console
 function whileSumThrees() {
