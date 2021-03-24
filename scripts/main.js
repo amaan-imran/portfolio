@@ -46,217 +46,165 @@ function Sport(){
     document.getElementById('favsport').innerHTML = message;  
 }
 
-        
-function function1(){
-    alert("Assignment 1 coming soon");
-}
-function function2() {
-    alert("Assignment 2 coming soon");
-}
-function function3(){
-    alert("Assignment 3 coming soon");
-}
-function function4(){
-    alert("Assignment 4 coming soon");
-}
-function function5(){
-    alert("Assignment 5 coming soon");
-}
-function function6(){
-    alert("Assignment 6 coming soon");
-} 
-function function7(){
-    alert("Assignment 7 coming soon");
-}
-function function8(){
-    alert("Assignment 8 coming soon");
-}
-function function9(){
-    alert("Assignment 9 coming soon");
-}
-function function10(){
-    alert("Assignment 10 coming soon");
+//Button for Function 1 (larger number)//
+//enter 2 numbers which are assigned a variable, larger one gets outputed//
+function largernumber() {
+    let largnum1 = parseInt(prompt("Insert a NUMBER"));
+    let largnum2 = parseInt(prompt("Insert a another NUMBER"));
+
+    if (largnum1>largnum2) {
+      document.getElementById("button1").innerHTML= largnum1 + " is bigger";
+    }
+    else if (largnum1 < largnum2){
+      document.getElementById("button1").innerHTML= largnum2 + " is bigger";
+    }
+    else if (largnum1 === largnum2){
+      document.getElementById("button1").innerHTML="Nice try, its the same number. Try again";
+    } 
+    else{
+      document.getElementById("button1").innerHTML="Put some numbers in and Try again";
+    } 
 }
 
-// Create a JavaScript function, largerNumber() 
-// that prompts the user for two integers and uses conditional statement(s) to alert the user to the larger of the two numbers. 
-// For example: largerNumber(3, 18) returns 18
-function largerNumber() {
-	alert("Enter two numbers in the following prompt")
-		var number1 = parseInt(prompt("Enter the first number"));
-		var number2 = parseInt(prompt("Enter the second number"));
-			if (number1 > number2) {
-				alert("The larger number of the two is: " + number1);
-			} else if (number2 > number1) {
-				alert("The larger number of the two is: " + number2);
-			}
-	}
-// Create a JavaScript function, signOfProduct(), 
-// that prompts the user for 3 integers and uses conditional statement(s) to output the sign of product of three numbers to the user in an alert. 
-// For example: signOfProduct(3, -7, 2) returns The sign is - 
-function signOfProduct() {
-	alert("Enter three numbers in the following prompt")
-		var n1 = parseInt(prompt("Enter the first number", "0"));
-		var n2 = parseInt(prompt("Enter the second number", "0"));
-		var n3 = parseInt(prompt("Enter the third number", "0"));
-		var product = n1 * n2 * n3;
-			if (product > 0) {
-				alert("The sign of the product is: positive: " + product);
-			} else if (product < 0) {
-				alert("The larger number of the two is: negative: " + product);
-			}
-}
-// Create a JavaScript function, threeNumberSort(), 
-// that prompts the user for 3 numbers and uses conditional statement(s) to sort the numbers from least to greatest. 
-// Display an alert box to show the result. For example: threeNumberSort(0, -1, 4)  returns (4, 0, -1)
-function threeNumberSort() {
-	alert("Enter three numbers in the following prompt")
-		var sort1 = parseInt(prompt("Enter the first number", "0"));
-		var sort2 = parseInt(prompt("Enter the second number", "0"));
-		var sort3 = parseInt(prompt("Enter the third number", "0"));
-			if (sort1 < sort2 && sort2 < sort3) {
-				alert(sort1 + ", " + sort2 + ", " + sort3);
-			} else if (sort1 < sort3 && sort3 < sort2) {
-				alert(sort1 + ", " + sort3 + ", " + sort2);
-			} else if (sort2 < sort1 && sort1 < sort3) {
-				alert(sort2 + ", " + sort1 + ", " + sort3);
-			} else if (sort2 < sort3 && sort3 < sort1) {
-				alert(sort2 + ", " + sort3 + ", " + sort1);
-			} else if (sort3 < sort2 && sort2 < sort1) {
-				alert(sort3 + ", " + sort2 + ", " + sort1);
-			} else if (sort3 < sort1 && sort1 < sort2) {
-				alert(sort3 + ", " + sort1 + ", " + sort2);
-			}
-}
-// 8 2 4
-// Create a JavaScript function, forSumThrees(), that uses a for loop to sum the multiples of 3 under 1000. Log the result to the console
-function forSumThrees() {
-	var sum = 0;
-		for (var x =0;x<1000; x++ ) 
-        {
-			if (x % 3 === 0) {
-				sum += x;
-			}
-		}
-	document.getElementById("sumthree").innerHTML=sum;
-}
-// Create a JavaScript function, whileSumThrees(), that uses a while loop to sum the multiples of 3 under 1000. Log the result to the console
-function whileSumThrees() {
-	var sum1 = 0;
-	let x = 0;
-		while (x < 1000) {
-			if (x % 3 === 0) {
-				sum1 += x;
-			}
-		x++;
-		}
-        document.getElementById("whilesumthree").innerHTML=sum1;
-}
+//Button for Function 2 (sign of product)//
+//enter 3 numbers, progarm multiplies the numbers and gives sign of the product (why testing is it is elow or above 0)//
+  function signOfProduct() {
+    let signnum1 = parseInt(prompt("Insert a NUMBER"));
+    let signnum2 = parseInt(prompt("Insert a another NUMBER"));
+    let signnum3 = parseInt(prompt("Insert one more NUMBER"));
 
- //Reiterates integers fron 1-100 (multiples of 4 = FOUR , multiples of 10 = TEN, multiples of 4&10 = TenFour!)
-//logs all output to console. The way this code runs similar to the for loop forsumofthrees().
-function tenFour() {
-    for (i = 1; i <= 100; i++) {
-        if (i % 4 === 0 && i % 10 === 0) {
-            console.log("TenFour!");
-        }
-        else if (i % 4 === 0) {
-            console.log("FOUR");
-        }
-        else if (i % 10 === 0) {
-            console.log("TEN");
-        }
-        else {
-            console.log(i);
-        }
+    if (signnum1*signnum2*signnum3 < 0){
+      document.getElementById("button2").innerHTML = " The product will be negative (-)";
     }
-}
+    else if (signnum1*signnum2*signnum3 > 0){
+      document.getElementById("button2").innerHTML = " The product will be positive (+)";
+    }
+    else if (signnum1*signnum2*signnum3 == 0){
+      document.getElementById("button2").innerHTML = " The product is 0 --- neither positive nor negative";
+    }  
+    else{
+        document.getElementById("button2").innerHTML="Put some numbers in and Try again";
+    }
+  } 
 
-//Finds what century it is with a given year
-function centuryFromYear() {
-    var x = parseInt(prompt("Enter a year: "));
-    if (x >= 0 && x <= 100) {
-        output = 1;
-    }
-    if (x >= 101 && x <= 200) {
-        output = 2;
-    }
-    if (x >= 201 && x <= 300) {
-        output = 3;
-    }
-    if (x >= 301 && x <= 400) {
-        output = 4;
-    }
-    if (x >= 401 && x <= 500) {
-        output = 5;
-    }
-    if (x >= 501 && x <= 600) {
-        output = 6;
-    }
-    if (x >= 601 && x <= 700) {
-        output = 7;
-    }
-    if (x >= 701 && x <= 800) {
-        output = 8;
-    }
-    if (x >= 801 && x <= 900) {
-        output = 9;
-    }
-    if (x >= 901 && x <= 1000) {
-        output = 10;
-    }
-    if (x >= 1001 && x <= 1100) {
-        output = 11;
-    }
-    if (x >= 1101 && x <= 1200) {
-        output = 12;
-    }
-    if (x >= 1201 && x <= 1300) {
-        output = 13;
-    }
-    if (x >= 1301 && x <= 1400) {
-        output = 14;
-    }
-    if (x >= 1401 && x <= 1500) {
-        output = 15;
-    }
-    if (x >= 1501 && x <= 1600) {
-        output = 16;
-    }
-    if (x >= 1601 && x <= 1700) {
-        output = 17;
-    }
-    if (x >= 1701 && x <= 1800) {
-        output = 18;
-    }
-    if (x >= 1801 && x <= 1900) {
-        output = 19;
-    }
-    if (x >= 1901 && x <= 2000) {
-        output = 20;
-    }
-    if (x >= 2001 && x <= 2100) {
-        output = 21;
-    }
-document.getElementById("century").innerHTML = output;
-} 
+//Button for Function 3 (number sort)//
+//enter 3 numbers and sort from low to high. each number is assigned a varible, then one of the 6 possiblities is outputed//
+  function threeNumberSort() {
+    let sortnum1 = parseInt(prompt("Insert a NUMBER"));
+    let sortnum2 = parseInt(prompt("Insert a another NUMBER"));
+    let sortnum3 = parseInt(prompt("Insert one more NUMBER"));
+    
 
-//Finds the third angle with two angles of a triangle
-function thirdAngle() {
-    var angle1 = parseInt(prompt("Enter Angle one: "));
-    var angle2 = parseInt(prompt("Enter Angle two: "));
-    var angletotal = 180 - angle1 - angle2;
-    if (angletotal <= 180) {
-       output = angletotal;
+    if (sortnum1 <= sortnum2 && sortnum2 <= sortnum3){
+      document.getElementById("button3").innerHTML = sortnum1+ "<" + sortnum2 + "<" + sortnum3;
     }
-    if (angle1 < 0) {
-        output = "Invalid. Enter two angles of a triangle";
+    else if (sortnum1 <= sortnum3 && sortnum3 <= sortnum2){
+      document.getElementById("button3").innerHTML = sortnum1+ "<" + sortnum3 + "<" + sortnum2;
     }
-    if (angle2 < 0) {
-        output = "Invalid. Enter two angles of a triangle";
+    else if (sortnum2 <= sortnum1 && sortnum1 <= sortnum3){
+      document.getElementById("button3").innerHTML = sortnum2+ "<" + sortnum1 + "<" + sortnum3;
     }
-    if (angletotal < 0) {
-        output = "Invalid. Enter two angles of a triangle";
+    else if (sortnum2<=sortnum3&&sortnum3<=sortnum1){
+      document.getElementById("button3").innerHTML = sortnum2+ "<" + sortnum3 + "<" + sortnum1;
     }
-document.getElementById("angles").innerHTML = output;
-}
+    else if (sortnum3<=sortnum1&&sortnum1<=sortnum2){
+      document.getElementById("button3").innerHTML = sortnum3+ "<" + sortnum1 + "<" + sortnum2;
+    }
+    else if (sortnum3<=sortnum2&&sortnum2<=sortnum1){
+      document.getElementById("button3").innerHTML = sortnum3+ "<" + sortnum2 + "<" + sortnum1;
+    }
+    else{
+      document.getElementById("button3").innerHTML= "Enter a real number "
+    }
+  } 
+
+  
+//Button for Function 4 (forSumThrees)//
+//using for loops setting conditions for and the loop. and preform only if i is a multiple of 3 with 0 remainder. The output is the sum of all multiples of 3's up to 1000 //
+  function forSumThrees() {
+    let runningTotal= 0;
+    let sumOfThrees=0;
+    for (let i=1; i<=1000; i++){
+      if(i % 3 === 0){
+        sumOfThrees = runningTotal +=i;
+      }
+    }
+    document.getElementById("button4").innerHTML= sumOfThrees;
+  }
+
+  
+//Button for Function 5 (whileSumThrees)//
+////using while loops setting conditions for and the loop. and preform only if i is a multiple of 3 with 0 remainder. The output is the sum of all multiples of 3's up to 1000//
+  function whileSumThrees() {
+  let runningtotal= 0;
+  let i = 0;
+    while(i<1000){
+      i++
+      if(i%3===0){
+        document.getElementById("button5").innerHTML = runningtotal += i;
+      }
+    }  
+  }
+
+//Button for Function 6 (tenFour)//  
+//finding the multiples if 4,10 and both in console using forloops. outputs onto console.log//
+  function tenFour() {
+    let forloop = 0
+    for (let i=1; i<=100; i++){
+      if (i%4===0 && i%10===0){
+        console.log ("TenFour!");
+      }
+      else if (i%10===0){
+        console.log ("Ten");
+      }
+      else if (i%4===0){
+        console.log ("Four");
+      }
+      else{
+        console.log (i);
+      }
+    }
+  }
+
+  
+//Button for Function 7 (centuryFromYear)//
+//rounding up the the nearest 100 to find the century the input year is in by using math.ceil//
+  function  centuryFromYear() {
+    let yearnum1 = parseInt(prompt("Enter the year please: "))
+    if (yearnum1>0){
+      // math.ceil rounds the number up to the nearest 100 //
+      document.getElementById("button7").innerHTML= "This year is in the " +  Math.ceil (yearnum1/100) +"th"+ " century"
+    }
+    else{
+      document.getElementById("button7").innerHTML= "Make sure you have entered a real number "
+    }
+  }
+
+
+//Button for Function 8 (thirdAngle)//
+//assign provided angle varibles, subtract from 180 (total of all angles in triagle) to get last angle//
+  function thirdAngle() {
+    let angnum1 = parseInt(prompt( "Enter the first angle°"))
+    let angnum2 =  parseInt(prompt( "Enter the second angle°"))
+    let angnum3 = 180-(angnum1+angnum2)
+    if (angnum3>0){
+      document.getElementById("button8").innerHTML= "The third angle is " + angnum3+ "°"
+    }
+    else if (num3<=0){
+      document.getElementById("button8").innerHTML= "Enter two angles of a triangle please"
+    }
+    else{
+      document.getElementById("button8").innerHTML= "Make sure you entered a real number"
+    }
+  } 
+
+
+//Button for Function 9//
+  function function9() {
+    alert('Assignment 9 coming with a bang!')
+  }
+//Button for Function 10//
+function function10() {
+    alert('Assignment 10 coming with a bang!')
+  }
+
