@@ -59,10 +59,10 @@ function largernumber() {
       document.getElementById("button1").innerHTML= largnum2 + " is bigger";
     }
     else if (largnum1 === largnum2){
-      document.getElementById("button1").innerHTML="Nice try, its the same number. Try again";
+      document.getElementById("button1").innerHTML="Nice try, Try again";
     } 
     else{
-      document.getElementById("button1").innerHTML="Put some numbers in and Try again";
+      document.getElementById("button1").innerHTML="Make sure its numbers your putting in";
     } 
 }
 
@@ -83,7 +83,7 @@ function largernumber() {
       document.getElementById("button2").innerHTML = " The product is 0 --- neither positive nor negative";
     }  
     else{
-        document.getElementById("button2").innerHTML="Put some numbers in and Try again";
+        document.getElementById("button2").innerHTML="Make sure you are putting in numbers";
     }
   } 
 
@@ -92,7 +92,7 @@ function largernumber() {
   function threeNumberSort() {
     let sortnum1 = parseInt(prompt("Insert a NUMBER"));
     let sortnum2 = parseInt(prompt("Insert a another NUMBER"));
-    let sortnum3 = parseInt(prompt("Insert one more NUMBER"));
+    let sortnum3 = parseInt(prompt("Insert the third NUMBER"));
     
 
     if (sortnum1 <= sortnum2 && sortnum2 <= sortnum3){
@@ -114,7 +114,7 @@ function largernumber() {
       document.getElementById("button3").innerHTML = sortnum3+ "<" + sortnum2 + "<" + sortnum1;
     }
     else{
-      document.getElementById("button3").innerHTML= "Enter a real number "
+      document.getElementById("button3").innerHTML= "Enter a number instead "
     }
   } 
 
@@ -176,7 +176,7 @@ function largernumber() {
       document.getElementById("button7").innerHTML= "This year is in the " +  Math.ceil (yearnum1/100) +"th"+ " century"
     }
     else{
-      document.getElementById("button7").innerHTML= "Make sure you have entered a real number "
+      document.getElementById("button7").innerHTML= "Make sure you have entered a number "
     }
   }
 
@@ -194,7 +194,7 @@ function largernumber() {
       document.getElementById("button8").innerHTML= "Enter two angles of a triangle please"
     }
     else{
-      document.getElementById("button8").innerHTML= "Make sure you entered a real number"
+      document.getElementById("button8").innerHTML= "Make sure you entered a number"
     }
   } 
 
