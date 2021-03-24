@@ -172,7 +172,6 @@ function tenFour() {
     }
 }
 
-
 //Finds what century it is with a given year
 function centuryFromYear() {
     var x = parseInt(prompt("Enter a year: "));
