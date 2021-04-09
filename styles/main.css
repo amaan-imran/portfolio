@@ -27,9 +27,11 @@ color:maroon;
 font: size 500ems;
   }
   /* Projects header */
-  #Project-header{
+  #assignment-maintext{
   color: maroon;
   font-size: 200ems;
+  border-color: maroon;
+  Border: 8px;
   }
   /* Technical experience header */
 #tech{
@@ -234,7 +236,7 @@ font: size 500ems;
     padding: 10px;
    }
   
-   /* css for buttons funcitons-x*/
+   /* css for buttons type1*/
 .type1 {
 	margin: 0.22cm 0.60cm;
 	padding: 35px;
@@ -245,9 +247,10 @@ font: size 500ems;
 	font-size: 20px;
 	border-color: whitesmoke ;
 	border-width: 10px;
+
 }
 
-/* css for buttons functions-y*/
+/* css for buttons type2*/
 .type2 {
 	margin: 0.22cm 0.60cm;
 	padding: 35px;
@@ -258,5 +261,68 @@ font: size 500ems;
 	font-size: 20px;
 	border-color: maroon ;
 	border-width: 10px;
+
 }
    
+.encryptionrow button{
+	height: 35px;
+	width: auto;
+	font-size: 25px;
+	color:maroon;
+	margin-bottom: 10px;
+	background-color: whitesmoke;
+}
+
+.encryptionrow {
+	display: table;
+	float: right;
+	position: relative;
+	top: -500px;
+}
+
+.encrypt1 {
+	float: left;
+}
+
+#encryption {
+	margin-bottom: -20px;
+}
+
+#encrypted {
+	font-size: 25px;
+	color: maroon;
+	position: relative;
+	bottom: 22px;
+	left: -10px;
+	margin-bottom: -30px;
+}
+
+/* Decryption button */
+.decryptionrow button{
+	height: 35px;
+	width: auto;
+	font-size: 25px;
+	color: maroon;
+	margin-bottom: 10px;
+	background-color: whitesmoke;
+}
+
+.decryptionrow {
+	display: table;
+	margin-top: -400px;
+	margin-right: -135px;
+}
+
+.decrypt1 {
+	float: left;
+}
+
+#decrypted {
+	font-size: 25px;
+	color:maroon;
+	position: relative;
+	bottom: 22px;
+	left: -10px;
+	margin-bottom: -30px;
+}
+
