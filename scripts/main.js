@@ -225,7 +225,7 @@ function encryption(){
 
      firstLetter = wordList[i][0]; //Save first letter of the word
      cipherText += (wordList[i]).slice(1); //Add the word to the cipherText string but with the first letter sliced off
-     cipherText += firstLetter + "!? "; //Add the first letter and "!?" to the ending of the word
+     cipherText += firstLetter + "?? "; //Add the first letter and "??" to the ending of the word
      
   }
 
@@ -263,3 +263,4 @@ function decryption(){
   document.getElementById("decrypt1").innerHTML = plainText.replace(/1/g, "a").replace(/2/g, "e").replace(/3/g, "i").replace(/4/g, "o").replace(/5/g, "u");
 
 }
+
