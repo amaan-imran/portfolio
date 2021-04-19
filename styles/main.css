@@ -78,7 +78,7 @@ font: size 500ems;
     }
   
     li a:hover {
-      background-color: rgb(21, 171, 230);
+      background-color:cyan;
     }
     /* About me info box #1 */
     #one{
@@ -225,13 +225,14 @@ font: size 500ems;
    }
    /* home page footer */
    .home-footer{
-    background-image:url("../images/maroon-lattice-background-vector.jpg");
+    background-image:url("../images/galaxy.jpg");
     text-align: center;
     padding: 10px;
    }
    /* About me footer */
    .aboutme-footer{
-    background-image:url("../images/maroon-lattice-background-vector.jpg");
+     color: maroon;
+    background-image:url("../images/galaxy.jpg");
     text-align: center;
     padding: 10px;
    }
